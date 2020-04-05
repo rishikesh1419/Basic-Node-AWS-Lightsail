@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/todos.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script type="text/javascript" src="/scripts/lib/jquery-2.1.4.min.js"></script>
+
+	<style type="text/css">
+
+		body {
+			background-color: black;
+			/*width: 75%;*/
+			margin: auto;
+		}
+
+  		::-webkit-input-placeholder {
+   color: red;
+   font-weight: 800;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+   font-weight: 800;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+   font-weight: 800;
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+   font-weight: 800;
+}
+	</style>
+</head>
+<body>
+
+<div style="text-align: center; margin-top: 25px;">
+  <a class="navbar-brand" href="#"><i class="fas fa-music fa-2x" style="margin-left: 20px;"></i></a>
+    <a class="navbar-brand" href="#"><i class="fas fa-registered fa-2x"></i></a>
+  <a class="navbar-brand" href="#"><i class="fas fa-list fa-2x"></i></a>
+
+  </div>
+
+<div id="container" style="margin-top:30px;">
+	<h1 style="font-size: 30px;" class="bg-primary">To-Do List <span id="toggle-form"><i class="fa fa-plus"></i></span></h1>
+	<input type="text" placeholder="Add New Todo">
+
+	<ul>
+		<li><span><i class="fa fa-trash"></i></span> Go To Potions Class</li>
+		<li><span><i class="fa fa-trash"></i></span> Buy New Wand</li>
+		<li><span><i class="fa fa-trash"></i></span> Quidich Practice</li>
+	</ul>
+</div>
+
+<script type="text/javascript" src="/scripts/todos.js"></script>
+</body>
+</html>
