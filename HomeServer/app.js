@@ -8,4 +8,4 @@ app.get("/", function(req, res){
 	res.render("index.ejs");
 });
 
-app.listen(8080);
+app.listen(3000);
