@@ -1,6 +1,11 @@
 # Simple Website Hosted on AWS Lightsail
-Done as an experiment in course 'Cloud Computing'  
+Done as an experiment in course 'Cloud Computing'
+<hr>
 
-- One server for Home Page
-- One server for Apps (To-Do List and Magic 8 Ball)
-- Used Proxy Server on Lightsail
+### Refer to the PDF file for instructions on hosting the project on AWS Lightsail and configuration of proxy server.
+<hr>
+
+## Screenshots
+![1](images/1.png)
+![2](images/2.png)
+![3](images/3.png)
